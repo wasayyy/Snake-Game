@@ -1,0 +1,65 @@
+html {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #76a68f;
+}
+main {
+  width: 80vw;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 2rem;
+  /*background-color: antiquewhite;*/
+  background-color: #91d99c;
+  background-color: #d7f2ae;
+
+  padding-bottom: 2rem;
+  border-style: solid;
+  /*border-color: aqua;
+  border-color: #5f5173;*/
+  border-color: #76a68f;
+  border-radius: 1rem;
+  border-width: 5px;
+}
+.grid {
+  width: 20rem;
+  height: 20rem;
+  margin: 1rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+  border-color: #5f5173;
+  border-color: #76a68f;
+}
+.grid div {
+  width: 2rem;
+  height: 2rem;
+}
+.snake {
+  /*background-color: aquamarine;*/
+  background-color: #f29985;
+}
+
+.apple {
+  background-color: palevioletred;
+}
+button {
+  border-radius: 1rem;
+  padding: 0.75rem;
+  border-style: solid;
+
+  /*border-color: #5f5173;*/
+  border-color: #76a68f;
+  cursor: pointer;
+  /*background-color: #5f5173;
+  color: antiquewhite;*/
+  background-color: #76a68f;
+  color: #d7f2ae;
+  margin-bottom: 10px;
+}
+button:hover {
+  /*background-color: antiquewhite;
+  color: #5f5173;*/
+  background-color: #d7f2ae;
+  color: #76a68f;
+}
